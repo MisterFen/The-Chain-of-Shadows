@@ -1,0 +1,26 @@
+{
+  "small_xp_orb": {
+    "id": "small_xp_orb",
+    "name": "Small Echo of Valor",
+    "description": "Small glowing orbs infused with the courage of those who have fought against evil, often dropped by defeated shadow creatures",
+    "score": 1,
+    "type": "xp",
+    "xp_value": 2
+  },
+  "medium_xp_orb": {
+    "id": "medium_xp_orb",
+    "name": "Medium Echo of Valor",
+    "description": "Medium glowing orbs infused with the courage of those who have fought against evil, often dropped by defeated shadow creatures",
+    "score": 10,
+    "type": "xp",
+    "xp_value": 5
+  },
+  "large_xp_orb": {
+    "id": "large_xp_orb",
+    "name": "Large Echo of Valor",
+    "description": "Large glowing orbs infused with the courage of those who have fought against evil, often dropped by defeated shadow creatures",
+    "score": 50,
+    "type": "xp",
+    "xp_value": 200
+  }
+}

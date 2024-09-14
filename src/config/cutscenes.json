@@ -1,0 +1,315 @@
+{
+  "forest_boss_intro": {
+    "characters": {
+      "Eldric": {
+        "visuals": "npcs/bosses/eldric"
+      },
+      "ShadeSpider1": {
+        "visuals": "npcs/enemies/shade_spider"
+      },
+      "ShadeSpider2": {
+        "visuals": "npcs/enemies/shade_spider"
+      },
+      "Auron": {
+        "visuals": "chars/heroes/auron"
+      }
+    },
+    "commands": [
+      {
+        "action": "spawn",
+        "character_name": "Eldric",
+        "position": [100, 200]
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Eldric",
+        "text": "Auron... foolish to face me alone in this cursed forest.",
+        "duration": 3
+      },
+      {
+        "action": "move",
+        "character_name": "Eldric",
+        "to": [300, 200],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Eldric",
+        "text": "Did you really think you could just walk away with him?",
+        "duration": 3
+      },
+      {
+        "action": "spawn",
+        "character_name": "ShadeSpider1",
+        "position": [350, 250]
+      },
+      {
+        "action": "spawn",
+        "character_name": "ShadeSpider2",
+        "position": [250, 250]
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Eldric",
+        "text": "You're never alone in the forest... my spiders are always hungry.",
+        "duration": 4
+      },
+      {
+        "action": "move",
+        "character_name": "Eldric",
+        "to": [600, 300],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Eldric",
+        "text": "But maybe a little... sport first.",
+        "duration": 3
+      },
+      {
+        "action": "spawn",
+        "character_name": "Auron",
+        "position": [500, 350]
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Eldric",
+        "text": "Look at your friend, bound in shadows. He won’t last long...",
+        "duration": 4
+      },
+      {
+        "action": "move",
+        "character_name": "Eldric",
+        "to": [400, 400],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Eldric",
+        "text": "Now, let’s see how long *you* last.",
+        "duration": 3
+      },
+      {
+        "action": "move",
+        "character_name": "Eldric",
+        "to": [400, -200],
+        "duration": 2
+      },
+      {
+        "action": "move",
+        "duration": 3,
+        "characters": [
+          {
+            "character_name": "ShadeSpider1",
+            "to": [600, -200],
+            "duration": 2
+          },
+          {
+            "character_name": "ShadeSpider2",
+            "to": [600, -200],
+            "duration": 2
+          },
+          {
+            "character_name": "Auron",
+            "to": [600, -200],
+            "duration": 2
+          }
+        ]
+      }
+    ]
+  },
+  "library_boss_intro": {
+    "characters": {
+      "Varna": {
+        "visuals": "npcs/bosses/varna"
+      }
+    },
+    "commands": [
+      {
+        "action": "spawn",
+        "character_name": "Varna",
+        "position": [200, 150]
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "How could I fail Morcantus like this...?",
+        "duration": 4
+      },
+      {
+        "action": "move",
+        "character_name": "Varna",
+        "to": [300, 200],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "I tried so hard to gain his favor...",
+        "duration": 3
+      },
+      {
+        "action": "move",
+        "character_name": "Varna",
+        "to": [400, 200],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "But now... a new master arises.",
+        "duration": 3
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "Morcantus! His power is beyond imagination!",
+        "duration": 4
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "He will change the world. Everything you know will fall.",
+        "duration": 5
+      },
+      {
+        "action": "move",
+        "character_name": "Varna",
+        "to": [600, 300],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "I will prove my loyalty once and for all. You will be my offering!",
+        "duration": 5
+      },
+      {
+        "action": "move",
+        "character_name": "Varna",
+        "to": [400, 400],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Varna",
+        "text": "Prepare yourself. Morcantus will rise, and no one can stop him!",
+        "duration": 5
+      }
+    ]
+  },
+  "dungeon_boss_intro": {
+    "characters": {
+      "Veldan": {
+        "visuals": "chars/heroes/veldan"
+      },
+      "ShadowKnight1": {
+        "visuals": "npcs/bosses/shadow_knight1"
+      },
+      "ShadowKnight2": {
+        "visuals": "npcs/bosses/shadow_knight2"
+      },
+      "ShadowKnight3": {
+        "visuals": "npcs/bosses/shadow_knight3"
+      }
+    },
+    "commands": [
+      {
+        "action": "spawn",
+        "character_name": "Veldan",
+        "position": [300, 250],
+        "details": {
+          "chained": true,
+          "bewitched": true
+        }
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Veldan",
+        "text": "Help... me...",
+        "duration": 3
+      },
+      {
+        "action": "spawn",
+        "character_name": "ShadowKnight1",
+        "position": [150, 150]
+      },
+      {
+        "action": "spawn",
+        "character_name": "ShadowKnight2",
+        "position": [450, 150]
+      },
+      {
+        "action": "speech_box",
+        "character_name": "ShadowKnight1",
+        "text": "You believe you can free him?",
+        "duration": 3
+      },
+      {
+        "action": "speech_box",
+        "character_name": "ShadowKnight2",
+        "text": "The Dark Lord’s orders are absolute.",
+        "duration": 3
+      },
+      {
+        "action": "move",
+        "character_name": "ShadowKnight1",
+        "to": [250, 250],
+        "duration": 2
+      },
+      {
+        "action": "move",
+        "character_name": "ShadowKnight2",
+        "to": [400, 250],
+        "duration": 2
+      },
+      {
+        "action": "spawn",
+        "character_name": "ShadowKnight3",
+        "position": [300, 100]
+      },
+      {
+        "action": "speech_box",
+        "character_name": "ShadowKnight3",
+        "text": "Veldan belongs to the shadow. No one can break these chains.",
+        "duration": 4
+      },
+      {
+        "action": "speech_box",
+        "character_name": "ShadowKnight1",
+        "text": "You must defeat us first!",
+        "duration": 3
+      },
+      {
+        "action": "move",
+        "character_name": "ShadowKnight3",
+        "to": [300, 200],
+        "duration": 2
+      },
+      {
+        "action": "speech_box",
+        "character_name": "ShadowKnight2",
+        "text": "This dungeon will be your grave.",
+        "duration": 3
+      },
+      {
+        "action": "speech_box",
+        "character_name": "Veldan",
+        "text": "...No... it's... a trap...",
+        "duration": 4
+      },
+      {
+        "action": "move",
+        "character_name": "ShadowKnight1",
+        "to": [500, 200],
+        "duration": 3
+      },
+      {
+        "action": "move",
+        "character_name": "ShadowKnight2",
+        "to": [500, 200],
+        "duration": 3
+      }
+    ]
+  }
+}

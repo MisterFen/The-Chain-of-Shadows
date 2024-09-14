@@ -1,0 +1,95 @@
+{
+    "shade_spider":{
+        "base_damage": 1,
+        "base_health": 5,
+        "debug_name": "shade_spider",
+        "drops": ["small_xp_orb"],
+        "name": "Shade Spider",
+        "speed": 50,
+        "stage": "forest",
+        "type": "enemies"
+    },
+    "skeleton":{
+        "base_damage": 1,
+        "base_health": 5,
+        "debug_name": "skeleton",
+        "drops": ["small_xp_orb"],
+        "name": "Skeleton",
+        "speed": 50,
+        "stage": "forest",
+        "type": "enemies"
+    },
+    "phantom":{
+        "base_damage": 1,
+        "base_health": 5,
+        "debug_name": "phantom",
+        "drops": ["small_xp_orb"],
+        "name": "Phantom",
+        "speed": 50,
+        "stage": "forest",
+        "type": "enemies"
+    },
+    "goblin":{
+        "base_damage": 1,
+        "base_health": 5,
+        "debug_name": "goblin",
+        "drops": ["small_xp_orb"],
+        "name": "Goblin",
+        "speed": 50,
+        "stage": "forest",
+        "type": "enemies"
+    },
+    "zombie":{
+        "base_damage": 1,
+        "base_health": 5,
+        "debug_name": "zombie",
+        "drops": ["small_xp_orb"],
+        "name": "Zombie",
+        "speed": 50,
+        "stage": "forest",
+        "type": "enemies"
+    },
+    "troll":{
+        "base_damage": 1,
+        "base_health": 5,
+        "debug_name": "troll",
+        "drops": ["small_xp_orb"],
+        "name": "Troll",
+        "speed": 50,
+        "stage": "forest",
+        "type": "enemies"
+    },
+    "carnivorous_plant":{
+        "base_damage": 1,
+        "base_health": 10,
+        "debug_name": "carnivorous_plant",
+        "drops": ["small_xp_orb"],
+        "event_only": true,
+        "name": "Carnivorous Plant",
+        "solid_body": false,
+        "speed": 0,
+        "type": "enemies"
+    },
+    "fallen_star":{
+        "base_health": 10,
+        "debug_name": "fallen_star",
+        "drops": ["star_fragment"],
+        "event_only": true,
+        "name": "Fallen Star",
+        "solid_body": false,
+        "speed": 250,
+        "type": "neutral"
+    },
+    "temporal_rift":{
+        "base_health": 1000,
+        "debug_name": "temporal_rift",
+        "drops": ["large_xp_orb"],
+        "duration": 30,
+        "event_only": true,
+        "name": "Temporal Rift",
+        "solid_body": false,
+        "spawn_interval": 10,
+        "speed": 0,
+        "type": "friendly"
+    }
+}

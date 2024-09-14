@@ -1,0 +1,122 @@
+{
+    "Eldric": {
+      "name": "Eldric",
+      "debug_name": "eldric",
+      "base_health": 1000,
+      "solid_body": false,
+      "starting_abilities": ["Summon Spiders", "Web Wrap", "Acid Wave"],
+      "spawn_behavior": {
+        "spawn_enemies": ["Spider", "Giant Spider"],
+        "spawn_timing": "on_half_health",
+        "spawn_location": "surround"
+      },
+      "spawn_position": [-800,-600],
+      "type": "bosses"
+    },
+    "Varna": {
+      "name": "Varna",
+      "health": 800,
+      "starting_abilities": {
+        "dark_mark": {
+          "damage": 60,
+          "cooldown": 12,
+          "description": "Summons the Dark Mark, dealing AoE damage."
+        },
+        "death_curse": {
+          "damage": 100,
+          "cooldown": 20,
+          "description": "Unleashes the killing curse on the player."
+        }
+      },
+      "spawn_behavior": {
+        "spawn_enemies": ["Shadow Knight"],
+        "spawn_timing": "on_third_health",
+        "spawn_location": "random"
+      }
+    },
+    "Shadow Knights": {
+      "name": "Shadow Knights",
+      "health": 1200,
+      "starting_abilities": {
+        "dark_magic": {
+          "damage": 40,
+          "cooldown": 8,
+          "description": "Casts dark magic to debilitate the player."
+        },
+        "summon_minions": {
+          "enemy_type": "Dark Follower",
+          "spawn_pattern": "line",
+          "spawn_rate": 3,
+          "max_minions": 10
+        }
+      },
+      "spawn_behavior": {
+        "spawn_enemies": ["Dark Follower"],
+        "spawn_timing": "continuous",
+        "spawn_location": "circle"
+      }
+    },
+    "Dark Shadows": {
+      "name": "Dark Shadows",
+      "health": 1500,
+      "starting_abilities": {
+        "shadow_realm": {
+          "damage": 70,
+          "cooldown": 18,
+          "description": "Brings the player into a dark realm, dealing massive damage."
+        },
+        "summon_darklings": {
+          "enemy_type": "Darkling",
+          "spawn_pattern": "random",
+          "spawn_rate": 2,
+          "max_minions": 15
+        }
+      },
+      "spawn_behavior": {
+        "spawn_enemies": ["Darkling"],
+        "spawn_timing": "on_low_health",
+        "spawn_location": "random"
+      },
+      "appearance": {
+        "sprite_path": "images/dark_shadows.png",
+        "animations": {
+          "idle": ["dark_shadows_idle_1.png", "dark_shadows_idle_2.png"],
+          "attack": ["dark_shadows_attack_1.png", "dark_shadows_attack_2.png"]
+        }
+      }
+    },
+    "Morcantus": {
+      "name": "Morcantus",
+      "health": 2000,
+      "starting_abilities": {
+        "dark_storm": {
+          "damage": 80,
+          "cooldown": 10,
+          "description": "Summons a storm of dark energy, dealing AoE damage."
+        },
+        "soul_drain": {
+          "damage": 50,
+          "cooldown": 15,
+          "description": "Drains the player's health to heal Morcantus."
+        },
+        "summon_phantoms": {
+          "enemy_type": "Phantom",
+          "spawn_pattern": "random",
+          "spawn_rate": 4,
+          "max_minions": 25
+        }
+      },
+      "spawn_behavior": {
+        "spawn_enemies": ["Phantom", "Wraith"],
+        "spawn_timing": "on_quarter_health",
+        "spawn_location": "random"
+      },
+      "appearance": {
+        "sprite_path": "images/morcantus.png",
+        "animations": {
+          "idle": ["morcantus_idle_1.png", "morcantus_idle_2.png"],
+          "attack": ["morcantus_attack_1.png", "morcantus_attack_2.png"]
+        }
+      }
+    }
+  }

@@ -1,0 +1,49 @@
+{
+    "characters": [
+      {
+        "name": "Auron",
+        "max_health": 1000,
+        "speed": 5,
+        "starting_abilities": ["Soulwarden", "Pyrebrand"],
+        "tag_line": "The Lightbearer in a World of Shadows",
+        "description": "Auron, a warrior empowered by the last remnants of celestial light, is humanity's final hope against the encroaching darkness. With his radiant sword and unwavering courage, he fights to reclaim a world consumed by shadows, always standing at the forefront of the battle against evil.",
+        "unlearnable_abilities": []
+      },
+      {
+        "name": "Elira",
+        "max_health": 90,
+        "speed": 5,
+        "starting_abilities": ["Stonecurse"],
+        "tag_line": "The Arcane Flame that Never Dies",
+        "description": "A sorceress of unmatched intellect and raw power, Elira's mastery of the arcane arts allows her to bend reality to her will. Held captive by Sorina’s dark magic, she remains the key to unlocking secrets long buried within the Cryptic Library’s forbidden tomes.",
+        "unlearnable_abilities": []
+      },
+      {
+        "name": "Kael",
+        "max_health": 90,
+        "speed": 5,
+        "starting_abilities": ["VoidFlare"],
+        "tag_line": "The Shadowstalker of the Wilds",
+        "description": "A master archer and rogue, Kael is as silent as the night and as swift as the wind. Trapped by the venomous Webmothers, he awaits liberation to unleash his deadly precision and unmatched agility against the dark forces. His eyes never miss a target, especially when vengeance calls.",
+        "unlearnable_abilities": []
+      },
+      {
+        "name": "Veldan",
+        "max_health": 90,
+        "speed": 5,
+        "starting_abilities": ["Throw Potion"],
+        "tag_line": "The Exiled General Turned Darkblade",
+        "description": "Once a celebrated war hero, Veldan now wanders the realms as a forsaken soul, betrayed by those he once served. His tactical mind and mastery over shadow-forged weaponry make him a formidable ally—or enemy. Rescuing him from the Shadow Sentinels is crucial to any hope of turning the tide against darkness.",
+        "unlearnable_abilities": []
+      },
+      {
+        "name": "Master Aldric",
+        "max_health": 90,
+        "speed": 5,
+        "starting_abilities": ["Phoenix Flame"],
+        "tag_line": "The Sage Who Sees Beyond",
+        "description": "Aldric, the wisest of all, is the only one who fully comprehends the true nature of the Chain of Shadows. His deep knowledge of ancient spells and mystical forces makes him a dangerous captive. He’s the final piece of the puzzle, the only one capable of leading the charge into the Abyssal Void and confronting the Shadow Lord.",
+        "unlearnable_abilities": []
+      }
+    ]
+  }

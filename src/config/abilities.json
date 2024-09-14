@@ -1,0 +1,357 @@
+{
+  "acid_wave": {
+    "damage": 33,
+    "cooldown": 12,
+    "damage_rate": 3,
+    "duration": 20,
+    "description": "Fires waves of acid in multiple directions, causing damage to the player.",
+    "has_animation": true,
+    "projectiles": 1,
+    "speed": 120
+  },
+  "voidflare": {
+    "name": "VoidFlare",
+    "description": "A spell that pulls in light and lift, leaving darkness in its wake",
+    "speed": 800,
+    "angle": 0,
+    "cooldown": 7,
+    "duration": 5,
+    "damage": 5,
+    "damage_rate": 1,
+    "has_animation": true,
+    "learnable": false,
+    "max_level": 10,
+    "projectiles": 1,
+    "time_between_zooms": 1,
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ]
+    }
+  },
+  "soulwarden": {
+    "name": "Soulwarden",
+    "description": "Summons an etheral guardian to fend off dark creatures",
+    "ability_stagger_rate": 0.5,
+    "angle": 0,
+    "cooldown": 9,
+    "duration": 8,
+    "damage": 5,
+    "damage_rate": 1,
+    "has_animation": true,
+    "learnable": false,
+    "max_level": 10,
+    "projectiles": 1,
+    "speed": 120,
+    "time_between_projectiles": 0.7,
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ],
+      "common_alterations": {
+        "dash":{
+          "debug_name": "soulwarden_dash",
+          "name": "Soulwarden Dash",
+          "description": "The Warden occasionally dashes in a straight line, hitting all enemies in it's path",
+          "additional_damage": 3,
+          "max_distance": 200,
+          "speed_multiplier": 5,
+          "time_between_dashes": 1
+        }
+      },
+      "rare_alterations": {
+        "pulse":{
+          "debug_name": "soulwarden_pulse",
+          "name": "Soulwarden Pulse",
+          "description": "The Warden repeatedly release a pulse of energy, hitting all nearby enemies",
+          "radius": 50,
+          "time_between_pulses": 1
+        }
+      },
+      "epic_alterations": {
+        "constellation":{
+          "debug_name": "soulwarden_constellation",
+          "name": "Soulwarden Constellation",
+          "description": "The Warden leaves small orbs of energy as it travels. When the warden fades, the orbs connect and damage all enemies",
+          "time_between_orbs": 1
+        }
+      }
+    }
+  },
+  "frostbind": {
+    "name": "Frostbind",
+    "description": "The Frostbind spell freezes a small area around the caster, slowing down enemies and dealing light damage over time.",
+    "speed": 50,
+    "angle": 0,
+    "cooldown": 6,
+    "duration": 4,
+    "damage": 3,
+    "damage_rate": 0.5,
+    "has_animation": true,
+    "learnable": true,
+    "max_level": 10,
+    "projectiles": 1,
+    "radius": 150,
+    "effect": "slows",
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ]
+    }
+  },
+  "pyrebrand": {
+    "name": "Pyrebrand",
+    "description": "The Pyrebrand spell creates a burst of flames, setting enemies ablaze within a radius, dealing damage over time.",
+    "speed": 110,
+    "angle": 0,
+    "cooldown": 5,
+    "duration": 13,
+    "damage": 7,
+    "damage_rate": 2,
+    "has_animation": true,
+    "learnable": true,
+    "max_level": 10,
+    "projectiles": 1,
+    "radius": 200,
+    "time_between_projectiles": 1,
+    "effect": "burn",
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ]
+    }
+  },
+  "mindshackle": {
+    "name": "Mindshackle",
+    "description": "Bends the will of enemies, forcing them to fight on your behalf",
+    "speed": 50,
+    "angle": 0,
+    "cooldown": 5,
+    "duration": 3,
+    "damage": 7,
+    "damage_rate": 2,
+    "has_animation": true,
+    "learnable": true,
+    "max_level": 10,
+    "projectiles": 1,
+    "radius": 200,
+    "effect": "control"
+  },
+  "phoenix_flame": {
+    "name": "Phoenix Flame",
+    "description": "A phoenix defends our hero, singing all enemies it touches",
+    "speed": 10,
+    "angle": 0,
+    "cooldown": 2,
+    "damage": 5,
+    "damage_rate": 1,
+    "duration": 5,
+    "learnable": false,
+    "has_animation": true,
+    "projectiles": 1,
+    "radius": 300,
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ]
+    }
+  },
+  "soulwarden_pulse": {
+    "name": "Warden Pulse",
+    "description": "Effect of a Warden pulsing",
+    "duration": 0.6,
+    "damage_rate": 50,
+    "has_animation": true,
+    "learnable": false,
+    "speed": 1
+  },
+  "stonecurse": {
+    "name": "Stonecurse",
+    "description": "The signature spell of Elira. The bolt hits an enemy, freezing them in-spot and dealing damage",
+    "speed": 50,
+    "angle": 0,
+    "cooldown": 2,
+    "duration": 5,
+    "damage": 5,
+    "damage_rate": 10,
+    "enemy_hit_text": "Petrified!",
+    "has_animation": true,
+    "learnable": false,
+    "max_hit_count": 1,
+    "projectiles": 1,
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ]
+    }
+  },
+  "potion_explosion": {
+    "name": "Potion Explosion",
+    "description": "Effect of throwing an exploding potion",
+    "duration": 1,
+    "damage": 30,
+    "damage_rate": 50,
+    "has_animation": true,
+    "learnable": false,
+    "speed": 1
+  },
+  "spider_rain": {
+    "damage": 50,
+    "duration": 5,
+    "cooldown": 15,
+    "has_animation": true,
+    "description": "A rain of venomous spiders falls from the ceiling."
+  },
+  "summon_spiders": {
+    "cooldown": 35,
+    "enemy_type": "acromantula",
+    "has_animation": false,
+    "spawn_pattern": "circle",
+    "spawn_rate": 5,
+    "max_minions": 20
+  },
+  "throw_potion": {
+    "angle": 0,
+    "cooldown": 2,
+    "curve_height": 100,
+    "damage": 5,
+    "damage_rate": 1,
+    "description": "The signature ability of Veldan. He throws one of his many potions, each with differing effects",
+    "duration": 5,
+    "has_animation": true,
+    "learnable": false,
+    "name": "Throw Potion",
+    "projectiles": 1,
+    "radius": 300,
+    "speed": 0.5,
+    "upgrade_data":{
+      "common_upgrades": [
+        ["damage", 1],
+        ["cooldown", -0.1],
+        ["speed", 1],
+        ["duration", 0.1]
+      ],
+      "rare_upgrades": [
+        ["damage", 2],
+        ["cooldown", -0.2],
+        ["speed", 2],
+        ["duration", 0.2]
+      ],
+      "epic_upgrades": [
+        ["damage", 3],
+        ["cooldown", -0.3],
+        ["speed", 3],
+        ["duration", 0.3],
+        ["projectiles", 1]
+      ]
+    }
+  },
+  "web_wrap": {
+    "damage": 0,
+    "cooldown": 10,
+    "damage_rate": 1,
+    "duration": 16,
+    "description": "Traps the player in webs, reducing movement speed.",
+    "enemy_hit_text": "Wrapped!",
+    "has_animation": true,
+    "projectiles": 3,
+    "speed": 280,
+    "wrap_duration": 3
+  }
+}

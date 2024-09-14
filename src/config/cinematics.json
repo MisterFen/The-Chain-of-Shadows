@@ -1,0 +1,150 @@
+{
+  "forest_intro": {
+    "image_path": "assets/cinematics/forest_intro.png",
+    "text_lines": [
+      "In the heart of Shadowgrove Forest, where darkness feeds on fear, Auron begins his perilous quest.",
+      "His path is tangled with shadows, and the fate of his friend Kael weighs heavy on his soul.",
+      "Kael, a swift and deadly archer, is ensnared by the Webmothers, their venomous webs twisting his mind and body.",
+      "But Auron’s resolve is unbreakable, for he knows that true friendship can pierce even the deepest darkness.",
+      "With every step, he draws closer to Kael, determined to shatter the web of shadows and free his friend from their poisonous grasp."
+    ],
+    "vo_lines": [
+      "forest_intro_line1.mp3",
+      "forest_intro_line2.mp3",
+      "forest_intro_line3.mp3",
+      "forest_intro_line4.mp3",
+      "forest_intro_line5.mp3"
+    ],
+    "scroll_speed": 0.1
+  },
+  "forest_outro": {
+    "image_path": "assets/cinematics/forest_outro.png",
+    "text_lines": [
+      "The darkness retreats, but the journey is far from over...",
+      "Auron must face even greater challenges ahead."
+    ],
+    "vo_lines": [
+      "assets/vo/forest_outro_line1.mp3",
+      "assets/vo/forest_outro_line2.mp3"
+    ],
+    "scroll_speed": 0.5
+  },
+  "library_intro": {
+    "image_path": "assets/cinematics/library_intro.png",
+    "text_lines": [
+      "In the endless corridors of the Cryptic Library, knowledge is as dangerous as any weapon. Kael ventures forth, driven by loyalty and newfound courage.",
+      "Elira, the powerful mage, is held captive here, her brilliance bound by the arcane webs spun by the dark sorceress Sorina.",
+      "In this place, where each book conceals a curse and every shadow hides a snare, Kael must navigate the treacherous labyrinth of intellect.",
+      "To save Elira, he must outwit the sorcery that seeks to drown her light in an ocean of despair."
+    ],
+    "vo_lines": [
+      "library_intro_line1.mp3",
+      "library_intro_line2.mp3",
+      "library_intro_line3.mp3",
+      "library_intro_line4.mp3"
+    ],
+    "scroll_speed": 0.1
+  },
+  "library_outro": {
+    "image_path": "assets/cinematics/library_outro.png",
+    "text_lines": [
+      "The darkness retreats, but the journey is far from over...",
+      "Kael must face even greater challenges ahead."
+    ],
+    "vo_lines": [
+      "library_outro_line1.mp3",
+      "library_outro_line2.mp3"
+    ],
+    "scroll_speed": 0.5
+  },
+  "dungeon_intro": {
+    "image_path": "assets/cinematics/dungeon_intro.png",
+    "text_lines": [
+      "In the forsaken depths of the Fallen Bastion, the weight of regret presses down on all who enter.",
+      "Elira, with her sharp mind and fierce determination, descends into this abyss to free Veldan, a once-mighty general haunted by the shadows of his past.",
+      "Veldan, a man of many regrets, is imprisoned not by chains, but by the ghosts of his former life.",
+      "In these halls, where guilt takes physical form, Elira must confront not only the external threats but the inner turmoil that seeks to bind Veldan forever.",
+      "To free him, she must unlock the mysteries that lurk within and bring him back from the brink of despair."
+    ],
+    "vo_lines": [
+      "dungeon_intro_line1.mp3",
+      "dungeon_intro_line2.mp3",
+      "dungeon_intro_line3.mp3",
+      "dungeon_intro_line4.mp3",
+      "dungeon_intro_line5.mp3"
+    ],
+    "scroll_speed": 0.1
+  },
+  "dungeon_outro": {
+    "image_path": "assets/cinematics/forest_outro.png",
+    "text_lines": [
+      "The darkness retreats, but the journey is far from over...",
+      "Elira must face even greater challenges ahead."
+    ],
+    "vo_lines": [
+      "forest_outro_line1.mp3",
+      "forest_outro_line2.mp3"
+    ],
+    "scroll_speed": 0.5
+  },
+  "fortress_intro": {
+    "image_path": "assets/cinematics/fortress_intro.png",
+    "text_lines": [
+      "Within the towering walls of the Shadow Fortress, time itself seems to stand still.",
+      "Veldan, once a hero, now walks a path of redemption, his past sins weighing heavy on his soul.",
+      "Master Aldric, the greatest sage of the realm, is held prisoner by dark forces that seek to extinguish his wisdom.",
+      "In this place where despair reigns supreme, Veldan must confront his own demons and the forces that stand against him.",
+      "Only by confronting the darkness within can he hope to save Aldric and reclaim the light that once guided him."
+    ],
+    "vo_lines": [
+      "fortress_intro_line1.mp3",
+      "fortress_intro_line2.mp3",
+      "fortress_intro_line3.mp3",
+      "fortress_intro_line4.mp3",
+      "fortress_intro_line5.mp3"
+    ],
+    "scroll_speed": 0.1
+  },
+  "fortress_outro": {
+    "image_path": "assets/cinematics/forest_outro.png",
+    "text_lines": [
+      "The darkness retreats, but the journey is far from over...",
+      "Veldan must face even greater challenges ahead."
+    ],
+    "vo_lines": [
+      "forest_outro_line1.mp3",
+      "forest_outro_line2.mp3"
+    ],
+    "scroll_speed": 0.5
+  },
+  "abyss_intro": {
+    "image_path": "assets/cinematics/abyss_intro.png",
+    "text_lines": [
+      "In the heart of the Abyssal Void, reality shatters, and nightmares reign supreme.",
+      "Here, Master Aldric must confront the ultimate evil—Morcantus, the dark sorcerer who forged the Chain of Shadows in hatred and vengeance.",
+      "The Chain pulses with dark magic, threatening to bind the world in endless night.",
+      "But Aldric, with his ageless wisdom and an unyielding heart, knows that even in the deepest darkness, hope can still burn bright.",
+      "He steps forward, ready to face Morcantus and shatter the chains that threaten to enslave them all."
+    ],
+    "vo_lines": [
+      "abyss_intro_line1.mp3",
+      "abyss_intro_line2.mp3",
+      "abyss_intro_line3.mp3",
+      "abyss_intro_line4.mp3",
+      "abyss_intro_line5.mp3"
+    ],
+    "scroll_speed": 0.1
+  },
+  "abyss_outro": {
+    "image_path": "assets/cinematics/forest_outro.png",
+    "text_lines": [
+      "The darkness retreats, but the journey is far from over...",
+      "Aldric must face even greater challenges ahead."
+    ],
+    "vo_lines": [
+      "forest_outro_line1.mp3",
+      "forest_outro_line2.mp3"
+    ],
+    "scroll_speed": 0.5
+  }
+}

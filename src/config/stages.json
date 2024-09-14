@@ -1,0 +1,99 @@
+{
+    "stages": [
+      {
+        "name": "Forest",
+        "theme": "Enchanted Forest",
+        "music": "forest_theme.mp3",
+        "playable_character": "Auron",
+        "pickups": [
+          "Herbs",
+          "Magic Acorn",
+          "Enchanted Arrow"
+        ],
+        "final_boss": "Eldric",
+        "boss_spawn_cutscene": "forest_boss_intro",
+        "boss_spawn_timer": 30,
+        "random_encounter_distance": 2000
+      },
+      {
+        "name": "Library",
+        "theme": "Ancient Library",
+        "music": "library_theme.mp3",
+        "playable_character": "Kael",
+        "random_encounters": [
+          "Cursed Book",
+          "Ghost Scholar",
+          "Living Statue"
+        ],
+        "pickups": [
+          "Ancient Tome",
+          "Quill of Knowledge",
+          "Scroll of Secrets"
+        ],
+        "boss_spawn_cutscene": "library_boss_intro",
+        "boss_spawn_timer": 30,
+        "final_boss": "Archmage's Spirit",
+        "random_encounter_distance": 2000
+      },
+      {
+        "name": "Dungeon",
+        "theme": "Dark Dungeon",
+        "music": "dungeon_theme.mp3",
+        "playable_character": "Elira",
+        "random_encounters": [
+          "Skeleton Warrior",
+          "Dark Sorcerer",
+          "Dungeon Rat"
+        ],
+        "pickups": [
+          "Rusty Key",
+          "Iron Shield",
+          "Potion of Strength"
+        ],
+        "boss_spawn_cutscene": "dungeon_boss_intro",
+        "boss_spawn_timer": 30,
+        "final_boss": "Dungeon Overlord",
+        "random_encounter_distance": 2000
+      },
+      {
+        "name": "Fortress",
+        "theme": "Crimson Fortress",
+        "music": "fortress_theme.mp3",
+        "playable_character": "Veldan",
+        "random_encounters": [
+          "Armored Knight",
+          "Fire Elemental",
+          "Siege Golem"
+        ],
+        "pickups": [
+          "Flaming Sword",
+          "Shield of Valor",
+          "Battle Standard"
+        ],
+        "boss_spawn_cutscene": "fortress_boss_intro",
+        "boss_spawn_timer": 30,
+        "final_boss": "Crimson Warlord",
+        "random_encounter_distance": 2000
+      },
+      {
+        "name": "Abyss",
+        "theme": "Endless Abyss",
+        "music": "abyss_theme.mp3",
+        "playable_character": "Master Aldric",
+        "random_encounters": [
+          "Voidling",
+          "Abyssal Wraith",
+          "Nightmare Beast"
+        ],
+        "pickups": [
+          "Shadow Dagger",
+          "Void Crystal",
+          "Abyssal Amulet"
+        ],
+        "boss_spawn_cutscene": "abyss_boss_intro",
+        "boss_spawn_timer": 30,
+        "final_boss": "Lord of the Abyss",
+        "random_encounter_distance": 2000
+      }
+    ]
+  }
